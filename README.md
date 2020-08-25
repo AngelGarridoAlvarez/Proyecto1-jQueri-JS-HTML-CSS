@@ -1,5 +1,5 @@
 # Proyecto1-jQuery-JS-HTML-CSS
-Desarrollo completo de una web monolítica con HTML, CSS, JavaScript y jQueriUI
+Desarrollo completo de una web monolítica con HTML, CSS, JavaScript, jQuery y jQueryUI
 
 ## Indice
 

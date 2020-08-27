@@ -9,7 +9,6 @@
 }
 
 body{
-    background: url('../img/hojas.jpg');
     background-attachment: fixed;
 }
 
@@ -26,7 +25,6 @@ body{
     font-family: "Verdana", "Arial";
     font-size: 30px;
     letter-spacing: 4px;
-    background: #235e3d;
     color: white;
     text-align: center;
     width: 95%;
@@ -35,7 +33,6 @@ body{
     float: left;
     margin-bottom: 20px;
     text-transform: uppercase;
-
 }
 
 #menu{
@@ -57,10 +54,6 @@ body{
     transition: all 800ms;
 }
 
-#menu ul li:hover{
-    background: #235e3d;
-}
-
 #menu a{
     display: block;
     color: white;
@@ -79,7 +72,8 @@ body{
     padding: 10px;
 }
 
-.post h2{
+h2{
+    font-family: Helvetica, Arial;
     font-size: 30px;
     color: #333;
 }
@@ -100,14 +94,13 @@ body{
 .button-more{
     display: block;
     padding: 15px;
-    background: #235e3d;
     font-size: 14px;
-    color: white;
     text-decoration: none;
     text-align: center;
     margin-top: 10px;
     width: 70px;
     margin-bottom: 20px;
+    color: white;
 }
 
 #sidebar{
@@ -174,4 +167,63 @@ footer {
 
 .bx-wrapper, .bx-viewport{
     height: 250px !important;
+}
+
+#theme-selector{
+    position: fixed;
+    top: 40%;
+    background: rgba(51, 51, 51, 0.5);
+    width: 50px;
+    height: 100px;
+}
+
+#to-green,
+#to-red,
+#to-blue{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    display: block;
+    margin: 0px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#to-green{
+    background: #235e3d;
+}
+
+#to-red{
+    background: #CA3413;
+}
+
+#to-blue{
+    background: #1f87c4;
+}
+
+.subir{
+    width: 80px;
+    height: 20px;
+    color: white;
+    background: #666666;
+    text-decoration: none;
+    display: block;
+    border: 1px solid #333333;
+    border-radius: 15px;
+    box-shadow: 3px 3px 7px grey;
+}
+
+.subir:hover{
+    background: darkgoldenrod;
+}
+
+#box{
+    width: 60%;
+    float: left;
+    margin-top: 40px;
+}
+
+#acordeon{
+    margin-top: 20px;
 }

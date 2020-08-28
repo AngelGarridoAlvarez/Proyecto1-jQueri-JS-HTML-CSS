@@ -1,7 +1,7 @@
 # Proyecto1-jQuery-JS-HTML-CSS
 
-* Descargar fichero completo y abrir el archivo index.html para probar las funcionalidades.
 * Desarrollo completo de una web monolítica con HTML, CSS, JavaScript, jQuery y jQueryUI.
+* Descargar fichero completo y abrir el archivo index.html para probar las funcionalidades.
 
 ![img](img/1.png)
 

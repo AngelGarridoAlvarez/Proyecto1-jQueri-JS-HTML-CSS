@@ -27,7 +27,7 @@ body{
     letter-spacing: 4px;
     color: white;
     text-align: center;
-    width: 95%;
+    width: 100%;
     height: 100px;
     line-height: 90px;
     float: left;
@@ -134,7 +134,9 @@ h2{
 
 form input[type="text"],
 form input[type="password"],
-form input[type="email"]{
+form input[type="email"],
+form input[type="number"],
+select{
     padding: 5px;
     border-radius: 2px;
     border: 1px solid #ccc;
@@ -226,4 +228,42 @@ footer {
 
 #acordeon{
     margin-top: 20px;
+}
+
+#reloj{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Helvetica, Arial;
+    color: #333;
+    border: 5px dashed #333;
+    width: 20%;
+    padding: 30px;
+    margin: 0px auto; /*Para centrar en el medio*/
+}
+
+#contact-form{
+    width: 60%;
+    margin-top: 10px;
+    font-family: Helvetica, Arial;
+}
+
+#contact-form label{
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+}
+
+#contact-form-button{
+    margin-top: 5px;
+    display: block;
+    color: white;
+}
+
+.form-error{
+    margin-top: 10px;
+    float: left;
+    font-size: 20px;
+    background: red;
+    color: white;
+    padding: 5px;
 }

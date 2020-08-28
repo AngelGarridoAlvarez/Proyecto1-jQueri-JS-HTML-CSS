@@ -19,3 +19,11 @@ body{
     background: #CA3413;
     color: #fff;
 }
+
+#contact-form-button{
+    background: #CA3413;
+}
+
+#contact-form select{
+    background: #deaca2;
+}

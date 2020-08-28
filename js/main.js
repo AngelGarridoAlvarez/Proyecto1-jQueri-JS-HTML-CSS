@@ -111,4 +111,33 @@ $(document).ready(() => {
         $('#acordeon').accordion()
     };
 
-})
+    //Reloj que se actualiza en tiempo real
+
+    if (window.location.href.indexOf('reloj') > -1) { // Pongo if() para que solo me funcione si estamos en reloj - la buena práctica sería que cada funcionalidad tenga su propio archivo.js
+        let reloj = moment().format('HH:mm:ss'); //lo pongo dos veces para que no me aparezca un espacio vacío hasta que se carga el setTimeOut
+        $('#reloj').html(reloj);
+        setInterval(function (){
+            let reloj = moment().format('HH:mm:ss');
+            $('#reloj').html(reloj);
+        },1000*1)
+    };
+
+    //Validaciones con jQuery Form Validator
+
+    if (window.location.href.indexOf('contact') > -1) { // Pongo if() para que solo me funcione si estamos en contact - la buena práctica sería que cada funcionalidad tenga su propio archivo.js
+
+        $("form input[name='birthdate']").datepicker({
+            dateFormat: 'dd-mm-yy'
+        })
+
+        $.validate({
+            lang: 'es',
+            modules: 'date, security',
+            //A continuación manejo en la posición dónde quiero que me aparezcan los errores del formulario
+            errorMessagePosition: 'top',
+            scrollToTopOnError:'true'
+
+        });
+    }
+
+    })

@@ -27,4 +27,4 @@ Pasos seguidos:
     * Incorporamos moment-with-locales.js para mostrar la hora
     
 9. Sección de contacto con formulario y validación.
-    *Incorporamos jquery.form-validator.min.js para realizar validaciones
+   * Incorporamos jquery.form-validator.min.js para realizar validaciones
